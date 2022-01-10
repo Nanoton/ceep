@@ -14,4 +14,6 @@ function App() {
   );
 }
 
+//react -> lib
+//React -> ecossistema
 export default App;
