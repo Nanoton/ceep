@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import FormularioCadastro from './componentes/FormularioCadastro';
-import ListaDeNotas from './componentes/listaDeNotas';
+import React, { Component } from "react";
+import ListaDeNotas from "./componentes/listaDeNotas";
+import  FormularioCadastro  from "./componentes/FormularioCadastro";
 
-class App extends Component() {
-  render(){
+class App extends Component {
+  render() {
     return (
       <section>
-        <FormularioCadastro/> 
-        <ListaDeNotas/>
+        <FormularioCadastro />
+        <ListaDeNotas />
       </section>
-    )
+    );
   }
 }
 
