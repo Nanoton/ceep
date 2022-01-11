@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <section>
-        <FormularioCadastro />
+        <FormularioCadastro/>
         <ListaDeNotas/>
       </section>
     );
